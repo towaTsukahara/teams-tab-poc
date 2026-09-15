@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.20/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.20",
+  "version": "1.0.0",
+  "id": "8a2ab492-ee06-4f95-82ed-8415891d52f1",
+  "developer": {
+    "name": "towaTsukahara",
+    "websiteUrl": "https://towatsukahara.github.io/teams-tab-poc/",
+    "privacyUrl": "https://towatsukahara.github.io/teams-tab-poc/",
+    "termsOfUseUrl": "https://towatsukahara.github.io/teams-tab-poc/"
+  },
+  "name": {
+    "short": "Teams Tab POC",
+    "full": "Teams Tab 検証用アプリ"
+  },
+  "description": {
+    "short": "Teamsタブのサイドロード検証用アプリ",
+    "full": "Teamsタブのフロントエンド構築を試すための検証用アプリです。GitHub Pagesでホスティングしています。"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#5B21B6",
+  "staticTabs": [
+    {
+      "entityId": "home",
+      "name": "Home",
+      "contentUrl": "https://towatsukahara.github.io/teams-tab-poc/",
+      "scopes": ["personal"]
+    }
+  ],
+  "validDomains": ["towatsukahara.github.io"]
+}
